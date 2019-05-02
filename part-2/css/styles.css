@@ -21,9 +21,34 @@ img {
 
 figure {
   margin: 0;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.action-watch-later {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  color: red;
 }
 
 .film {
   width: 50%;
   margin: 40px auto;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  position: relative;
+}
+
+.film-details {
+  padding-right: 30px;
+}
+
+.action-like {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  color: red;
 }
